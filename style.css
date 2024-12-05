@@ -1,0 +1,146 @@
+/* Importando a fonte personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Variáveis de cores */
+:root {
+  --cor-principal: #5362b8b9; /* lilás */
+  --cor-secundaria: #9daf4c; /* Verde-claro */
+  --cor-destaque: #914a2e; /* Marrom-claro */
+  --cor-fundo: #f4f4f4; /* Fundo geral */
+  --cor-texto: #333; /* Texto principal */
+}
+
+/* Aplicando a fonte ao corpo da página */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor-fundo); /* Cor de fundo clara */
+  color: var(--cor-texto);
+}
+
+/* Estilizando o cabeçalho */
+header {
+  text-align: center;
+  background-color: var(--cor-secundaria); /* Cor de fundo do cabeçalho */
+  color: white;
+  padding: 20px;
+}
+
+/* Estilizando o título principal */
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+/* Estilo da foto de perfil */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+/* Estilizando o conteúdo principal */
+main {
+  padding: 20px;
+}
+
+/* Seção sobre */
+.sobre {
+  margin-bottom: 40px;
+}
+
+.sobre h2 {
+  color: var(--cor-secundaria);
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Estilizando os textos dos projetos */
+.projetos h2 {
+  color: var(--cor-secundaria);
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.projeto-texto {
+  color: var(--cor-principal);
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Estilizando os links dos projetos */
+.links h2 {
+  color: var(--cor-secundaria);
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 10px 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--cor-secundaria);
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+/* Efeito hover nos links */
+.links a:hover {
+  text-decoration: underline;
+  color: var(--cor-destaque);
+}
+
+/* Estilizando o rodapé */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: var(--cor-principal);
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Efeito hover no link do rodapé */
+footer a:hover {
+  color: var(--cor-destaque);
+}
+
+/* Estilo para informações de contato */
+.contact-info {
+  margin-top: 15px;
+}
+
+.contact-info a {
+  display: block;
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: var(--cor-secundaria);
+  text-decoration: none;
+}
+
+/* Efeito hover no link de contato */
+.contact-info a:hover {
+  color: var(--cor-destaque);
+}
